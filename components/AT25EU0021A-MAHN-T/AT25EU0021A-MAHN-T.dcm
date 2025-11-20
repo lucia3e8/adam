@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AT25EU0021A-MAHN-T
+D The AT25EU0021A is the lowest energy member of our System Enhancing class of code and data storage solutions designed for all system memory tasks including boot/code shadowing and small byte load updates. It is universally compatible and combines low power with faster Read performance to save more than 70% energy.
+K
+F https://www.renesas.com/us/en/products/memory-logic/non-volatile-memory/spi-nor-flash/dual-quad-spi-memory/at25eu0021a-2mbit-ultra-low-energy-serial-flash-memory
+$ENDCMP
+#
+#End Doc Library

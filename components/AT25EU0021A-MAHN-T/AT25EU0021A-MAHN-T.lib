@@ -1,0 +1,30 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model AT25EU0021A-MAHN-T
+#/16436662/1561480/2.50/9/2/Integrated Circuit
+DEF AT25EU0021A-MAHN-T IC 0 30 Y Y 1 F N
+F0 "IC" 2250 300 50 H V L CNN
+F1 "AT25EU0021A-MAHN-T" 2250 200 50 H V L CNN
+F2 "SON50P300X200X60-9N-D" 2250 100 50 H I L CNN
+F3 "https://www.renesas.com/us/en/products/memory-logic/non-volatile-memory/spi-nor-flash/dual-quad-spi-memory/at25eu0021a-2mbit-ultra-low-energy-serial-flash-memory" 2250 0 50 H I L CNN
+F4 "The AT25EU0021A is the lowest energy member of our System Enhancing class of code and data storage solutions designed for all system memory tasks including boot/code shadowing and small byte load updates. It is universally compatible and combines low power with faster Read performance to save more than 70% energy." 2250 -100 50 H I L CNN "Description"
+F5 "0.6" 2250 -200 50 H I L CNN "Height"
+F6 "724-AT25EU0021AMAHNT" 2250 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Renesas-Dialog/AT25EU0021A-MAHN-T?qs=QNEnbhJQKvYtqFyxNrskCQ%3D%3D" 2250 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Renesas Electronics" 2250 -500 50 H I L CNN "Manufacturer_Name"
+F9 "AT25EU0021A-MAHN-T" 2250 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~CS 1 0 0 200 R 50 50 0 0 P
+X SO_(IO1) 2 0 -100 200 R 50 50 0 0 P
+X ~WP_(IO2_ACC) 3 0 -200 200 R 50 50 0 0 P
+X GND 4 0 -300 200 R 50 50 0 0 P
+X EP 9 1200 -800 200 U 50 50 0 0 P
+X VCC 8 2400 0 200 L 50 50 0 0 P
+X ~HOLD_~/_~RESET_(IO3) 7 2400 -100 200 L 50 50 0 0 P
+X SCK 6 2400 -200 200 L 50 50 0 0 P
+X SI_(IO0) 5 2400 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 2200 100 2200 -600 200 -600 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library
