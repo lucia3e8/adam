@@ -519,7 +519,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "adam.step",
       "svg": "",
       "vrml": ""
     },
